@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "MIDI Chord Maker (interactive menu)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "midichord",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "MIDI Chord Maker (open current file)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "midichord",
+      "args": ["${file}"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
